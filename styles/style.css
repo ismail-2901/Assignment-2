@@ -1,0 +1,107 @@
+.quicksand-regular{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+ /* nav-bar style */
+ .display-flex{
+    display: flex;
+ }
+ /* .nav-bar{
+    display: flex;
+    justify-content: space-between;
+ } */
+ .bag{
+    padding: 12px 16px;
+    height: 62px;
+    width: 62px;
+  }
+ .bag-school{
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+ }
+ 
+  .nav-info{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1160px;
+    align-items: center;
+  }
+  .btn-style{
+    justify-content: space-between;
+    gap: 32px;
+  }
+  .btn-style a{
+    text-decoration: none;
+  }
+  .btn-style li{
+    list-style: none;
+  }
+  .school{
+    font-size: 2rem;
+    font-weight: 700;
+    color:rgb(17, 17, 17);
+  }
+
+  .home{
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(254, 163, 1);
+    border: none;
+  }
+
+.about{
+    font-size:1.25rem;
+    font-weight: 500;
+    color: rgb(1, 172, 253);
+    border: none;
+}
+.facilities{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color:rgb(5, 212, 223);
+    border: none;
+}
+
+.admission{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: rgb(93, 88, 239);
+    border: none;
+}
+
+.contact{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-color: rgb(254, 163, 1);
+    border-radius: 12px;
+    width: 197px;
+    height: 50px;
+    border: none;
+}
+.fa-solid{
+    padding: 12px 16px;
+    font-size: 30px;
+    display: none;
+}
+
+/* media query for mobile */
+@media screen and (max-width:576px) {
+    .school{
+        display: none;
+    }
+    .btn-style{
+        display: none;
+    }
+    .contact-btn{
+        display: none;
+    }
+    .fa-solid{
+        display: inline;
+    }
+}
