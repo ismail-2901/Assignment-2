@@ -3,15 +3,13 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    background-color:rgb(247, 247, 247);
+    ;
   }
  /* nav-bar style */
  .display-flex{
     display: flex;
  }
- /* .nav-bar{
-    display: flex;
-    justify-content: space-between;
- } */
  .bag{
     padding: 12px 16px;
     height: 62px;
@@ -90,8 +88,52 @@
     display: none;
 }
 
+/* banner section */
+
+.banner{
+    max-width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-heading{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.banner-info{
+    margin-right: 50px;
+}
+
+.empowering{
+    color: rgb(254, 163, 1);
+}
+.towards-vision{
+    color: rgb(1, 172, 253);
+}
+.paragraph-info{
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.enroll-btn{
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
 /* media query for mobile */
 @media screen and (max-width:576px) {
+    .nav-info{
+        border-bottom: 1px solid orange;
+    }
     .school{
         display: none;
     }
@@ -103,5 +145,36 @@
     }
     .fa-solid{
         display: inline;
+    }
+
+    .banner{
+       
+        justify-content: center;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    .banner-heading{
+        font-size:2rem;
+    }
+    .paragraph-info{
+        font-size: 0.875rem;
+    }
+    
+    .enroll-btn{
+        font-size: 1rem;
+        width: 131px;
+        height: 42px;
+    }
+
+    .banner-content{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .banner-info{
+        margin: 0 auto;
+    }
+    .hero-kid{
+        width: 80%;
     }
 }
